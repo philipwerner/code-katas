@@ -23,3 +23,9 @@
 - **Module**: `find_the_duplicate.py`
 - **Tests**: `test_find_the_duplicate.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/find-the-duplicated-number-in-a-consecutive-unsorted-list)
+
+**Get Middle Character (7th kyu)**
+
+- **Module**: `get_middle_char.py`
+- **Tests**: `test_get_middle_char.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/get-the-middle-character)
