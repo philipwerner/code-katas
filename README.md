@@ -16,4 +16,10 @@
 
 - **Module**: `sum_of_two_lowest.py`
 - **Tests**: `test_sum_of_two_lowest.py`
-- **URL**: [challenge url](https://www.codewars.com/kata/sum-of-two-lowest-positive-integers/python)
+- **URL**: [challenge url](https://www.codewars.com/kata/sum-of-two-lowest-positive-integers)
+
+**Find the Duplicated Number in a Consecutive Unsorted List (7th kyu)**
+
+- **Module**: `find_the_duplicate.py`
+- **Tests**: `test_find_the_duplicate.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/find-the-duplicated-number-in-a-consecutive-unsorted-list)
