@@ -29,3 +29,15 @@
 - **Module**: `get_middle_char.py`
 - **Tests**: `test_get_middle_char.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/get-the-middle-character)
+
+**Sum a List But Ignore Any Duplicates (7th kyu)**
+
+- **Module**: `sum_a_list.py`
+- **Tests**: `test_sum_a_list.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/sum-a-list-but-ignore-any-duplicates)
+
+**Reversed String (7th kyu)**
+
+- **Module**: `reverse_strings.py`
+- **Tests**: `test_reverse_strings.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/reversed-strings)
