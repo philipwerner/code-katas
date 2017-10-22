@@ -34,3 +34,11 @@ def test_sum_no_duplicate5():
     from sum_a_list import sum_no_duplicates
     l = [0, 1, 2, 3]
     assert sum_no_duplicates(l) == 6
+
+
+def test_sum_no_duplicate6():
+    """Tests for a sum of 45 from list l."""
+    from sum_a_list import sum_no_duplicates
+    l = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    assert sum_no_duplicates(l) == 45
+

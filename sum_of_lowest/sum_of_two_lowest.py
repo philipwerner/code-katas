@@ -6,6 +6,6 @@ def sum_two_smallest_numbers(numbers):
 """
 
 def sum_two_smallest_numbers(numbers):
-    #your code here
+    """This will find the sum of the two lowest ints in a string."""
     x = sorted(numbers)[:2]
     return x[0] + x[1]

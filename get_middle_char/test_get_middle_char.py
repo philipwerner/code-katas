@@ -48,3 +48,17 @@ def test_get_middle7():
     from get_middle_char import get_middle
     s = "amazombie"
     assert get_middle(s) == "o"
+
+
+def test_get_middle8():
+    """Tests string 'alkaline' for middle of 'al'."""
+    from get_middle_char import get_middle
+    s = "alkaline"
+    assert get_middle(s) == "al"
+
+
+def test_get_middle9():
+    """Tests string 'montypython' for middle of 'p'."""
+    from get_middle_char import get_middle
+    s = "montypython"
+    assert get_middle(s) == "p"

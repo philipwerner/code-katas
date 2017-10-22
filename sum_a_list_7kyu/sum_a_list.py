@@ -11,7 +11,7 @@ def sum_no_duplicates(nums):
 
 
 def sum_no_duplicates(l):
-    # write your solution here
+    """This will find the sum of non repeated ints."""
     dup = list([x for x in l if l.count(x) < 2])
     answer = sum(dup)
     return answer
