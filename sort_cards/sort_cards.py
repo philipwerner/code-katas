@@ -25,10 +25,10 @@ class Node(object):
 
 
 class PQ(object):
-    """A Line of Nodes."""
+    """Priority Q class."""
 
     def __init__(self, iterable=()):
-        """Create an empty queue."""
+        """Create an empty instance of the PQ."""
         self.head = None
         self.tail = None
         self._counter = 0
@@ -37,7 +37,7 @@ class PQ(object):
                 self.insert(item)
 
     def insert(self, val):
-        """Add a node to the tail of the queue."""
+        """Insert node into the Q."""
         new_node = Node(val)
         if self.tail is None:
             self.head = new_node
@@ -67,18 +67,18 @@ class PQ(object):
         self._counter += 1
 
     def return_list(self):
-        """To match the kata request."""
+        """Return as a list."""
         if self.head is None:
             return
-        the_list = []
-        the_node = self.head
-        while the_node:
-            the_list.append(str(the_node.data))
-            the_node = the_node.next
-        return the_list
+        result = []
+        result_node = self.head
+        while result_node:
+            result.append(str(result_node.data))
+            result_node = result_node.next
+        return result
 
 
-def sort_cards(cards):
-    """Sort the cards."""
-    q = PQ(cards)
+def sort_cards(deck):
+    """Sort and return the cards."""
+    q = PQ(deck)
     return q.return_list()
