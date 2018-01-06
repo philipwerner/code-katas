@@ -2,6 +2,7 @@
 
 
 def watch_pyramid_from_the_side(characters):
+    """Side view of the pyramid."""
     if not characters:
         return characters
     characters = characters[::-1]
@@ -16,6 +17,7 @@ def watch_pyramid_from_the_side(characters):
 
 
 def watch_pyramid_from_above(characters):
+    """Top view of the pyramid."""
     if not characters:
         return characters
     c = len(characters)
@@ -23,12 +25,12 @@ def watch_pyramid_from_above(characters):
 
     for i in range(c):
         num_repeat = (c - (i + 1)) * 2 + 1
-        pre_pend = ''
-        post_pend = ''
+        pre = ''
+        post = ''
         if i > 0:
-            pre_pend = characters[:i]
-            post_pend = characters[0:i][::-1]
-        rows.append(pre_pend + characters[i] * num_repeat + post_pend)
+            pre = characters[:i]
+            post = characters[0:i][::-1]
+        rows.append(pre + characters[i] * num_repeat + post)
 
     for row in rows[::-1][1:]:
         rows.append(row)
@@ -36,21 +38,23 @@ def watch_pyramid_from_above(characters):
 
 
 def count_visible_characters_of_the_pyramid(characters):
+    """Count of visible letters."""
     if not characters:
         return -1
     c = len(characters)
     side = (c - 1) * 2 + 1
-    visible_charac = side ** 2
-    return visible_charac
+    visible = side ** 2
+    return visible
 
 
 def count_all_characters_of_the_pyramid(characters):
+    """Count all characters in the pyramid."""
     if not characters:
         return -1
     c = len(characters)
 
     sum = 0
-    for level in range(1, c + 1):
-        side = (level - 1) * 2 + 1
+    for l in range(1, c + 1):
+        side = (l - 1) * 2 + 1
         sum += side ** 2
     return sum
