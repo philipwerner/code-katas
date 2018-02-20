@@ -62,3 +62,10 @@
 - **Module**: `grouped_by_commas.py`
 - **Tests**: `test_grouped_by_commas.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/grouped-by-commas)
+
+
+**Highest Scoring Word (6th kyu)**
+
+- **Module**: `highest_scoring_word.py`
+- **Tests**: `test_highest_scoring_word.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/highest-scoring-word)
