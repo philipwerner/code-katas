@@ -69,3 +69,10 @@
 - **Module**: `highest_scoring_word.py`
 - **Tests**: `test_highest_scoring_word.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/highest-scoring-word)
+
+
+**Validate Credit Card (6th kyu)**
+
+- **Module**: `validate_credit_card.py`
+- **Tests**: `test_validate_credit_card.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/validate-credit-card)
