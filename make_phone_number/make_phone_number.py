@@ -3,6 +3,11 @@
 
 def phone(x):
     """Create the phone number."""
+    if len(x) < 10:
+        raise ValueError('List needs to contain 10 numbers')
+    elif len(x) > 10:
+        raise ValueError('List needs to contain 10 numbers')
+
     first = x[0:3]
     second = x[3:6]
     third = x[6:]
