@@ -76,3 +76,10 @@
 - **Module**: `validate_credit_card.py`
 - **Tests**: `test_validate_credit_card.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/validate-credit-card)
+
+
+**Detect Pangram (6th kyu)**
+
+- **Module**: `detect_pangram.py`
+- **Tests**: `test_detect_pangram.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/detect-pangram)
