@@ -6,7 +6,7 @@ def add_while(x):
     output = "1"
     counter = 0
     print(output)
-    while(counter < x + 1):
+    while(counter < x):
         output = "0" + output
         counter += 1
         print(output)
